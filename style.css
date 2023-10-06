@@ -1,0 +1,59 @@
+.table {
+  width: 70%;
+  text-align: center;
+}
+tr {
+  height: 30px;
+}
+.row-1 {
+  background-color: #198f8f;
+  color: #030c1a;
+  transition: all 1s;
+}
+.row-2 {
+  background-color: #f5f519;
+  color: #1b365c;
+  transition: all 1s;
+}
+.row-1:hover {
+  color: #198f8f;
+  background-color: #030c1a;
+}
+.row-2:hover {
+  color: #f5f519;
+  background-color: #1b365c;
+}
+
+/* Завдання 2 */
+
+/* Створити зображення відповідно до свого варіанта: */
+.task-2{
+   margin-top: 15px;
+   display: flex;
+   gap: 15px;
+}
+
+.rectangle {
+   border: 1px solid rgb(137, 123, 123);
+   width: 200px;
+   height: 140px;
+}
+.circle {
+   height: 80px;
+  width: 80px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* 1. – за допомогою position  */
+.circle-position {
+  position: relative;
+  top: 30px;
+  left: 60px;
+}
+
+/* 2- за допомогою transform  */
+.circle-transform {
+   transform: translate(60px, 30px);
+}
+
